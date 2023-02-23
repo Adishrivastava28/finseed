@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+:root{
+    --bg-color: #222327;
+    --text-color: #fff;
+    --main-color: #90c543;
+}
+/* body{
+    min-height: 100vh;
+    background: var(--text-color);
+    color: var(--text-color);
+} */
+#header{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bg-color) ;
+    padding: 28px 12%;
+    transition: all .50s ease;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo i{
+    color: var(--main-color);
+    font-size: 28px;
+    margin-right: 3px;
+}
+
+.logo span{
+    color: var(--text-color);
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0px;
+    margin: 0px 30px;
+    transition: all .50s ease;
+}
+
+.navbar a:hover{
+    color: var(--main-color);
+
+}
+
+.navbar a.active{
+    color: var(--main-color);
+}
+
+.main{
+    display: flex;
+}
+
+.main a{
+    margin-right: 25px;
+    margin-left: 10px;
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all .50s ease;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.user i{
+    color: var(--main-color);
+    font-size: 28px;
+    margin-right: 7px;
+}
+
+.main a:hover{
+    color: var(--main-color);
+}
+
+
+/* CardTransition */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: url(green.jpg);
+    image-orientation: from-image;
+}
+.container{
+   margin:70px 10px;
+    display: flex;
+    top: 229px;
+    left: 100px;
+background-image: url(finpic.jpg);
+background-size: contain;
+}
+.card{
+    bottom: 110px;
+    height: 425px;
+    width: 325px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+img{
+    height: 425px;
+    width: 325px;
+    border-radius: 3px;
+}
+.intro{
+    height: 100px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 105px;
+    background: rgb(144, 197, 67, .5);
+    color: white;
+
+}
+
+h1{
+    margin: 10px;
+    font-size: 40px;
+}
+
+p{
+   font-size: 20px;
+   margin: 20px; 
+   visibility: hidden;
+   opacity: 0;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+.card:hover .intro{
+    height: 220px;
+    bottom: 171px;
+    background: black;
+}
+
+.card:hover p{
+    opacity: 1;
+    bottom: 170px;
+    visibility: visible;
+}
+
+.card:hover img{
+    transform: scale(1.1);
+}
+.footer{
+    padding: 40px 0px;
+    background-color:#0e0909;color: #4b4c4d;
+}
+
+
+#a{
+    text-decoration: none;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #f1f6fc;
+}
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0px 8px;
+    opacity: .75;
+}
+
+.list{
+    list-style-type: none;
+   
+}
+.footer .social a:hover{
+    opacity: .9;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.list li a{
+   
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+.footer ul li a:hover{
+    opacity: 1;
+}
+#reg{
+margin-top: 4px ;    
+}
+#ayush{
+    margin: -8px 10px;
+}
+#logo{
+    height: 55px;
+    width: 125px;
+    border: 2px solid black;
+    border-radius: 8px;
+   
+}
+#con{
+    background-color: #222723;
+    
+    color: #90c543;
+    text-align: center;
+    border: 1px solid #0b4c24;
+    padding: 35px 10px;
+
+}
+#about{
+      background-color: #222723;
+    
+    color: #ebefe4;
+    
+    border: 1px solid #0b4c24;
+    padding: 35px 10px;
+}
+#ab{
+    margin: 10px 10px;
+    font-size: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
