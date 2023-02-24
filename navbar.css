@@ -11,7 +11,7 @@
 :root{
     --bg-color: #222327;
     --text-color: #fff;
-    --main-color: #90c543;
+    --main-color: #4f7f0b;
 }
 /* body{
     min-height: 100vh;
@@ -27,7 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--bg-color) ;
+    background: white ;
     padding: 28px 12%;
     transition: all .50s ease;
 }
@@ -52,12 +52,13 @@
 
 .navbar{
     display: flex;
+    
 }
 
 .navbar a{
-    color: var(--text-color);
+    color:black;
     font-size: 1.1rem;
-    font-weight: 500;
+    font-weight: 650;
     padding: 5px 0px;
     margin: 0px 30px;
     transition: all .50s ease;
@@ -79,7 +80,7 @@
 .main a{
     margin-right: 25px;
     margin-left: 10px;
-    color: var(--text-color);
+    color: black;
     font-size: 1.1rem;
     font-weight: 500;
     transition: all .50s ease;
@@ -116,12 +117,15 @@
     image-orientation: from-image;
 }
 .container{
-   margin:70px 10px;
+   margin:28px 10px;
     display: flex;
+    justify-content: space-around;
     top: 229px;
     left: 100px;
 background-image: url(finpic.jpg);
-background-size: contain;
+
+
+background-size:contain ;
 }
 .card{
     bottom: 110px;
@@ -144,7 +148,7 @@ img{
     box-sizing: border-box;
     position: relative;
     bottom: 105px;
-    background: rgb(144, 197, 67, .5);
+    background: rgba(0, 0, 0, 0.5);
     color: white;
 
 }
@@ -246,31 +250,82 @@ margin-top: 4px ;
 #logo{
     height: 55px;
     width: 125px;
-    border: 2px solid black;
+    
     border-radius: 8px;
    
 }
 #con{
-    background-color: #222723;
-    
-    color: #90c543;
+    background-color: #ffffff;
+    font-family: 'Mukta', sans-serif;
+    color: #020400;
     text-align: center;
-    border: 1px solid #0b4c24;
+    font-size: 20px;
     padding: 35px 10px;
 
 }
 #about{
-      background-color: #222723;
+      background-color: #ffffff;
     
-    color: #ebefe4;
+    color: #000000;
+    text-align: center;
     
-    border: 1px solid #0b4c24;
     padding: 35px 10px;
 }
 #ab{
-    margin: 10px 10px;
-    font-size: 20px;
+    margin: 10px 285px;
+    font-size: 25px;
+    width: 70%;
+    font-family: 'Mukta', sans-serif;
 }
 html{
     scroll-behavior: smooth;
+}
+#os{
+     background-color: #ffffff;
+    
+    color: #020400;
+    text-align: center;
+    margin-bottom: -50px;
+    padding: 35px 10px;
+    font-weight: 1000;
+    font-size: 50px;
+    
+}
+#team{
+     background-color: #ffffff;
+    
+    color: #020400;
+    text-align: center;
+    
+    padding: 35px 10px;
+    font-weight: 1000;
+    font-size: 40px;
+}
+#easy{
+    
+    background-color: #ffffff;
+    
+    color: #020400;
+    text-align: center;
+    
+    padding: 35px 10px;
+    font-weight: 1000;
+    font-size: 50px;
+
+}
+#about2{font-family: 'Mukta', sans-serif;
+      margin: 10px 285px;
+    font-size: 25px;
+    width: 70%;
+}
+#what{
+
+    background-color: #ffffff;
+    
+    color: #020400;
+    text-align: center;
+    
+    padding: 35px 10px;
+    font-weight: 1000;
+    font-size: 40px;
 }
